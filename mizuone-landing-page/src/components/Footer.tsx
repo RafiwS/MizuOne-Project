@@ -19,8 +19,13 @@ const Footer = () => {
                     <Link to="/contact" className="hover:text-mizu-blue">Contact Us</Link>
                 </div>
             </div>
-            <div className="text-center text-sm text-gray-500">
-             © {new Date().getFullYear()} PT Surya Joyo Agung. All rights reserved.
+            <div className="text-center text-sm text-gray-500 flex flex-col gap-1">
+                <p className="font-bold">
+                    &copy; {new Date().getFullYear()} PT. Surya Joyo Agung
+                </p>
+                <p>
+                    Semua konten yang termuat di website ini merupakan hak milik PT. Surya Joyo Agung.
+                </p>
             </div>
         </div>
       </footer>
