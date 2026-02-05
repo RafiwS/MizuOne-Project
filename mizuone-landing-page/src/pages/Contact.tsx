@@ -24,7 +24,7 @@ const Contact = () => {
               </div>
               <h3 className="font-bold text-lg mb-2">WhatsApp / Telepon</h3>
               <p className="text-mizu-blue font-bold text-xl">082-140-300-730</p>
-              <p className="text-gray-400 text-sm mt-1">CP : PT Surya Joyo Agung</p>
+              <p className="text-gray-400 text-sm mt-1">CP: Nanda</p>
             </a>
 
             <a href="mailto:mizuone.info@gmail.com" className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition text-center flex flex-col items-center group">
