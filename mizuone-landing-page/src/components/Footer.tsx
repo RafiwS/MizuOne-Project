@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="text-center text-sm text-gray-500">
-             © {new Date().getFullYear()} MizuOne Project. All rights reserved.
+             © {new Date().getFullYear()} PT Surya Joyo Agung. All rights reserved.
             </div>
         </div>
       </footer>
