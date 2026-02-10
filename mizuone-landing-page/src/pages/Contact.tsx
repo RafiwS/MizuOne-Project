@@ -42,7 +42,7 @@ const Contact = () => {
                 <Phone className="w-8 h-8 text-green-600 group-hover:text-white transition" />
               </div>
               <h3 className="font-bold text-lg mb-2">Marketing & Sales</h3>
-              <p className="text-mizu-blue font-bold text-xl">082-140-300-730</p>
+              <p className="text-mizu-blue font-bold text-xl">0821-4030-0730</p>
               <p className="text-gray-400 text-sm mt-1">CP : Nanda</p>
             </a>
 
