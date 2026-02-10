@@ -11,7 +11,7 @@ const Footer = () => {
     <>
       <footer className="bg-[#E4E4E0] pt-16 pb-8 border-t border-gray-200 relative z-10">
         <div className="max-w-7xl mx-auto px-6">
-            <div className="flex flex-col md:flex-row justify-between items-center mb-12 gap-8">
+            <div className="flex flex-col md:flex-row justify-between items-center mb-10 gap-8">
                 <img src={ASSETS.logo} alt="MizuOne Logo" className="h-12" />
                 <div className="flex gap-8 text-black font-medium">
                     <Link to="/" onClick={scrollToTop} className="hover:text-mizu-blue cursor-pointer">Dashboard</Link>
@@ -19,7 +19,14 @@ const Footer = () => {
                     <Link to="/contact" className="hover:text-mizu-blue">Contact Us</Link>
                 </div>
             </div>
-            <div className="text-center text-sm text-gray-500 flex flex-col gap-1">
+
+            <div className="text-center text-gray-600 mb-10 space-y-1">
+                <p>Jl. Cibuni 2 No. 21-25, Purwantoro, Blimbing</p>
+                <p>Kota Malang - Jawa Timur</p>
+                <p className="text-blue-600 pt-2">ptsuryajoyoagung@yahoo.com | mizuone.info@gmail.com</p>
+            </div>
+
+            <div className="text-center text-sm text-gray-500 flex flex-col gap-1 border-t border-gray-300 pt-8">
                 <p className="font-bold">
                     &copy; {new Date().getFullYear()} PT. Surya Joyo Agung
                 </p>
