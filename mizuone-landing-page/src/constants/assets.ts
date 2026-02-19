@@ -1,5 +1,5 @@
 export const ASSETS = {
-  logo: "/logo.png",
+  logo: "https://www.figma.com/api/mcp/asset/ec258767-ed4c-431a-9ca4-72876302e97e",
   logoAlt: "https://www.figma.com/api/mcp/asset/3b2a4955-ea49-455e-bfbf-56395c82ec1e",
   machine: "https://www.figma.com/api/mcp/asset/2cee224c-4a9a-4b7f-9f50-5bca1331c4cf",
   droplet: "https://www.figma.com/api/mcp/asset/1d81e20a-e038-4887-8924-5c83c25470b8",
